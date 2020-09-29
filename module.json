@@ -2,7 +2,7 @@
 	"name": "Dialogo",
 	"title": "Modulo Artesanal",
 	"description": "Permite abrir ventanas de dialogo para habilidades secundarias en anima",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"author": "SrOveja",
 	"scripts": [
 		"dialogo.js"],
