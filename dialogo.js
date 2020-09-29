@@ -1,4 +1,4 @@
-let atr = _token.actor.data.data.attributes;
+
 
 let secundarias = new Dialog({
  title: "Secundarias",
@@ -65,7 +65,7 @@ Template boton
 */
 
 function imp() {
-    
+    let atr = _token.actor.data.data.attributes;
     ChatMessage.create({content: _token.actor.data.data.attributes.pro.value});
     ChatMessage.create({content: atr.pro.value});
     }
