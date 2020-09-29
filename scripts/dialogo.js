@@ -1,4 +1,6 @@
-var secundarias = new Dialog({
+let atr = token.actor.data.data.attributes;
+
+let secundarias = new Dialog({
  title: "Secundarias",
  content: "<p>Menú de habilidades secundarias :</p>",
  buttons: {
@@ -39,4 +41,31 @@ var secundarias = new Dialog({
   }
  }
 });
-secundarias.render(true);
+
+/*
+
+Template dialogo
+
+var  = new Dialog({
+    title: "",
+    content: "<p></p>",
+    buttons: {
+        
+        }
+    });
+    
+Template boton
+
+   name: {
+   icon: '<i class="fas fa-palette"></i>',
+   label: "",
+   callback: () => 
+  }
+
+*/
+
+function imp() {
+    
+    ChatMessage.create({content: token.actor.data.data.attributes.pro.value});
+    ChatMessage.create({content: atr.pro.value});
+    }
