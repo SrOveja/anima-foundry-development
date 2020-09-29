@@ -16,6 +16,7 @@
 	],
 	"url": "https://github.com/SrOveja/anima-foundry-development",
 	"manifest": "https://raw.githubusercontent.com/SrOveja/anima-foundry-development/master/module.json",
+	"download": "https://github.com/SrOveja/anima-foundry-development/archive/master.zip",
 	"minimumCoreVersion": "0.4.5",
 	"compatibleCoreVersion": "0.7.0"
 }
