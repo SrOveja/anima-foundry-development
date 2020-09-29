@@ -2,7 +2,7 @@
 	"name": "Dialogo",
 	"title": "Modulo Artesanal",
 	"description": "Permite abrir ventanas de dialogo para habilidades secundarias en anima",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "SrOveja",
 	"scripts": [
 		"scripts/dialogo.js"],
@@ -16,7 +16,7 @@
 	],
 	"url": "https://github.com/SrOveja/anima-foundry-development",
 	"manifest": "https://raw.githubusercontent.com/SrOveja/anima-foundry-development/master/module.json",
-	"download": "https://github.com/SrOveja/anima-foundry-development/archive/SrOveja-patch-1.zip",
+	"download": "https://github.com/SrOveja/anima-foundry-development/archive/master.zip",
 	"minimumCoreVersion": "0.4.5",
 	"compatibleCoreVersion": "0.7.0"
 }
