@@ -267,7 +267,7 @@ let subterfugio = new Dialog({
   Robo: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Robo",
-   callback: () => key=[_token.actor.data.data.attributes.robo.value,"Robo"]
+   callback: () => key=[_token.actor.data.data.attributes.rob.value,"Robo"]
   },
   Sigilo: {
    icon: '<i class="fas fa-chevron-right"></i>',
