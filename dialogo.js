@@ -56,33 +56,33 @@ let atleticas = new Dialog({
   Atletismo: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Atletismo",
-   callback: () => key=[token.actor.data.data.attributes.atl.value,"Atletismo"]
+   callback: () => key=[_token.actor.data.data.attributes.atl.value,"Atletismo"]
 
   },
   Montar: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Montar",
-  callback: () => key=[token.actor.data.data.attributes.mon.value, "Montar"]
+  callback: () => key=[_token.actor.data.data.attributes.mon.value, "Montar"]
   },
   Nadar: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Nadar",
-   callback: () => key=[token.actor.data.data.attributes.nad.value,"Nadar"]
+   callback: () => key=[_token.actor.data.data.attributes.nad.value,"Nadar"]
   },
   Saltar: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Saltar",
-  callback: () => key=[token.actor.data.data.attributes.sal.value,"Saltar"]
+  callback: () => key=[_token.actor.data.data.attributes.sal.value,"Saltar"]
   },
   Pilotear: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Pilotear",
-   callback: () => key=[token.actor.data.data.attributes.pil.value,"Pilotear"]
+   callback: () => key=[_token.actor.data.data.attributes.pil.value,"Pilotear"]
   },
   Trepar: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Trepar",
-  callback: () => key=[token.actor.data.data.attributes.tre.value,"Trepar"]
+  callback: () => key=[_token.actor.data.data.attributes.tre.value,"Trepar"]
   }
  },close:  () => rollhab(key) 
 });
@@ -94,38 +94,38 @@ let sociales = new Dialog({
   Estilo: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Estilo",
-  callback: () => key=[token.actor.data.data.attributes.est.value,"Estilo"]
+  callback: () => key=[_token.actor.data.data.attributes.est.value,"Estilo"]
   },
   Intimidar: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Intimidar",
-   callback: () => key=[token.actor.data.data.attributes.intimidar.value,"Intimidar"]
+   callback: () => key=[_token.actor.data.data.attributes.intimidar.value,"Intimidar"]
 
   },
   Liderazgo: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Liderazgo",
-   callback: () => key=[token.actor.data.data.attributes.lid.value,"Liderazgo"]
+   callback: () => key=[_token.actor.data.data.attributes.lid.value,"Liderazgo"]
   },
   Persuacion: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Persuación",
-   callback: () => key=[token.actor.data.data.attributes.persuacion.value,"Persuación"]
+   callback: () => key=[_token.actor.data.data.attributes.persuacion.value,"Persuación"]
   },
   Comercio: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Comercio",
-   callback: () => key=[token.actor.data.data.attributes.com.value,"Comercio"]
+   callback: () => key=[_token.actor.data.data.attributes.com.value,"Comercio"]
   },
   Callejeo: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Callejeo",
-   callback: () => key=[token.actor.data.data.attributes.cal.value,"Callejeo"]
+   callback: () => key=[_token.actor.data.data.attributes.cal.value,"Callejeo"]
   },
   Etiqueta: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Etiqueta",
-   callback: () => key=[token.actor.data.data.attributes.eti.value,"Etiqueta"]
+   callback: () => key=[_token.actor.data.data.attributes.eti.value,"Etiqueta"]
   }
  },close:  () => rollhab(key)
 });
@@ -137,18 +137,18 @@ let perceptivas = new Dialog({
   Advertir: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Advertir",
-  callback: () => key=[token.actor.data.data.attributes.adv.value,"Advertir"]
+  callback: () => key=[_token.actor.data.data.attributes.adv.value,"Advertir"]
   },
   Buscar: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Buscar",
-  callback: () => key=[token.actor.data.data.attributes.bus.value,"Buscar"]
+  callback: () => key=[_token.actor.data.data.attributes.bus.value,"Buscar"]
 
   },
   Rastrear: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Rastrear",
-  callback: () => key=[token.actor.data.data.attributes.ras.value,"Rastrear"]
+  callback: () => key=[_token.actor.data.data.attributes.ras.value,"Rastrear"]
   }
  },close:  () => rollhab(key)
 });
@@ -160,63 +160,63 @@ let intelectuales = new Dialog({
   Animales: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Animales",
-   callback: () => key=[token.actor.data.data.attributes.animales.value,"Animales"]
+   callback: () => key=[_token.actor.data.data.attributes.animales.value,"Animales"]
   },
   Ciencia: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Ciencia",
-   callback: () => key=[token.actor.data.data.attributes.cie.value,"Ciencia"]
+   callback: () => key=[_token.actor.data.data.attributes.cie.value,"Ciencia"]
 
   },
   Ley: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Ley",
-   callback: () => key=[token.actor.data.data.attributes.ley.value,"Ley"]
+   callback: () => key=[_token.actor.data.data.attributes.ley.value,"Ley"]
   },
   Herbolaria: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Herbolaria",
-   callback: () => key=[token.actor.data.data.attributes.her.value,"Herbolaria"]
+   callback: () => key=[_token.actor.data.data.attributes.her.value,"Herbolaria"]
   },
   Historia: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Historia",
-   callback: () => key=[token.actor.data.data.attributes.his.value,"Historia"]
+   callback: () => key=[_token.actor.data.data.attributes.his.value,"Historia"]
   },
   Tactica: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Tactica",
-   callback: () => key=[token.actor.data.data.attributes.tac.value,"Tactica"]
+   callback: () => key=[_token.actor.data.data.attributes.tac.value,"Tactica"]
   },
   Medicina: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Medicina",
-   callback: () => key=[token.actor.data.data.attributes.med.value,"Medicina"]
+   callback: () => key=[_token.actor.data.data.attributes.med.value,"Medicina"]
   },
   Memorizar: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Memorizar",
-   callback: () => key=[token.actor.data.data.attributes.mem.value,"Memorizar"]
+   callback: () => key=[_token.actor.data.data.attributes.mem.value,"Memorizar"]
   },
   Navegacion: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Navegación",
-   callback: () => key=[token.actor.data.data.attributes.nav.value,"Navegación"]
+   callback: () => key=[_token.actor.data.data.attributes.nav.value,"Navegación"]
   },
   Ocultismo: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Ocultismo",
-   callback: () => key=[token.actor.data.data.attributes.ocultismo.value,"Ocultismo"]
+   callback: () => key=[_token.actor.data.data.attributes.ocultismo.value,"Ocultismo"]
   },
   Tasacion: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Tasación",
-   callback: () => key=[token.actor.data.data.attributes.tas.value,"Tasación"]
+   callback: () => key=[_token.actor.data.data.attributes.tas.value,"Tasación"]
   },
   vMagica: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Valoración Magica",
-   callback: () => key=[token.actor.data.data.attributes.val.value,"Valoración Magica"]
+   callback: () => key=[_token.actor.data.data.attributes.val.value,"Valoración Magica"]
   }
  },close:  () => rollhab(key)
 });
@@ -228,18 +228,18 @@ let vigor = new Dialog({
   Frialdad: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Frialdad",
-   callback: () => key=[token.actor.data.data.attributes.fri.value,"Frialdad"]
+   callback: () => key=[_token.actor.data.data.attributes.fri.value,"Frialdad"]
   },
   Pfuerza: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Proeza de fuerza",
-   callback: () => key=[token.actor.data.data.attributes.pro.value,"Proeza de fuerza"]
+   callback: () => key=[_token.actor.data.data.attributes.pro.value,"Proeza de fuerza"]
 
   },
   Rdolor: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Resistencia al dolor",
-   callback: () => key=[token.actor.data.data.attributes.res.value,"Resistencia al dolor"]
+   callback: () => key=[_token.actor.data.data.attributes.res.value,"Resistencia al dolor"]
   }
  },close:  () => rollhab(key)
 });
@@ -251,38 +251,38 @@ let subterfugio = new Dialog({
   Cerrajeria: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Cerrajería",
-   callback: () => key=[token.actor.data.data.attributes.cer.value,"Cerrajería"]
+   callback: () => key=[_token.actor.data.data.attributes.cer.value,"Cerrajería"]
   },
   Disfraz: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Disfraz",
-   callback: () => key=[token.actor.data.data.attributes.dis.value,"Disfraz"]
+   callback: () => key=[_token.actor.data.data.attributes.dis.value,"Disfraz"]
 
   },
   Ocultarse: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Ocultarse",
-   callback: () => key=[token.actor.data.data.attributes.ocultarse.value,"Ocultarse"]
+   callback: () => key=[_token.actor.data.data.attributes.ocultarse.value,"Ocultarse"]
   },
   Robo: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Robo",
-   callback: () => key=[token.actor.data.data.attributes.robo.value,"Robo"]
+   callback: () => key=[_token.actor.data.data.attributes.robo.value,"Robo"]
   },
   Sigilo: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Sigilo",
-   callback: () => key=[token.actor.data.data.attributes.sig.value,"Sigilo"]
+   callback: () => key=[_token.actor.data.data.attributes.sig.value,"Sigilo"]
   },
   Tramperia: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Trampería",
-   callback: () => key=[token.actor.data.data.attributes.tra.value,"Trampería"]
+   callback: () => key=[_token.actor.data.data.attributes.tra.value,"Trampería"]
   },
   Venenos: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Venenos",
-   callback: () => key=[token.actor.data.data.attributes.ven.value,"Venenos"]
+   callback: () => key=[_token.actor.data.data.attributes.ven.value,"Venenos"]
   }
  },close:  () => rollhab(key)
 });
@@ -294,66 +294,68 @@ let creativa = new Dialog({
   Arte: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Arte",
-   callback: () => key=[token.actor.data.data.attributes.art.value,"Arte"]
+   callback: () => key=[_token.actor.data.data.attributes.art.value,"Arte"]
   },
   Baile: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Baile",
-   callback: () => key=[token.actor.data.data.attributes.bai.value,"Baile"]
+   callback: () => key=[_token.actor.data.data.attributes.bai.value,"Baile"]
 
   },
   Forja: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Forja",
-   callback: () => key=[token.actor.data.data.attributes.forja.value,"Forja"]
+   callback: () => key=[_token.actor.data.data.attributes.forja.value,"Forja"]
   },
   Runas: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Runas",
-   callback: () => key=[token.actor.data.data.attributes.run.value,"Runas"]
+   callback: () => key=[_token.actor.data.data.attributes.run.value,"Runas"]
   },
   Alquimia: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Alquimia",
-   callback: () => key=[token.actor.data.data.attributes.alq.value,"Alquimia"]
+   callback: () => key=[_token.actor.data.data.attributes.alq.value,"Alquimia"]
   },
   Animismo: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Animismo",
-   callback: () => key=[token.actor.data.data.attributes.animismo.value,"Animismo"]
+   callback: () => key=[_token.actor.data.data.attributes.animismo.value,"Animismo"]
   },
   Musica: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Musica",
-   callback: () => key=[token.actor.data.data.attributes.mus.value,"Musica"]
+   callback: () => key=[_token.actor.data.data.attributes.mus.value,"Musica"]
   },
   tManos: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Truco de manos",
-   callback: () => key=[token.actor.data.data.attributes.tru.value,"Truco de manos"]
+   callback: () => key=[_token.actor.data.data.attributes.tru.value,"Truco de manos"]
   },
   cRitual: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Caligrafia ritual",
-   callback: () => key=[token.actor.data.data.attributes.cal.value,"Caligrafia ritual"]
+   callback: () => key=[_token.actor.data.data.attributes.cal.value,"Caligrafia ritual"]
   },
   Orfebreria: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Orfebrería",
-   callback: () => key=[token.actor.data.data.attributes.orf.value,"Orfebrería"]
+   callback: () => key=[_token.actor.data.data.attributes.orf.value,"Orfebrería"]
   },
   Confeccion: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Confección",
-   callback: () => key=[token.actor.data.data.attributes.confeccion.value,"Confección"]
+   callback: () => key=[_token.actor.data.data.attributes.confeccion.value,"Confección"]
   },
   cMarionetas: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Confección de Marionetas",
-   callback: () => key=[token.actor.data.data.attributes.cMar.value,"Confección de Marionetas"]
+   callback: () => key=[_token.actor.data.data.attributes.cMar.value,"Confección de Marionetas"]
   }
  },close:  () => rollhab(key)
 });
+
+
 
 async function rollhab(key) {
 	for (let token of canvas.tokens.controlled){
