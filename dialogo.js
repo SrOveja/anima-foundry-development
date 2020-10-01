@@ -120,7 +120,7 @@ let sociales = new Dialog({
   Callejeo: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Callejeo",
-   callback: () => key=[_token.actor.data.data.attributes.cal.value,"Callejeo"]
+   callback: () => key=[_token.actor.data.data.attributes.callejeo.value,"Callejeo"]
   },
   Etiqueta: {
    icon: '<i class="fas fa-chevron-right"></i>',
@@ -335,7 +335,7 @@ let creativa = new Dialog({
   cRitual: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Caligrafia ritual",
-   callback: () => key=[_token.actor.data.data.attributes.cal.value,"Caligrafia ritual"]
+   callback: () => key=[_token.actor.data.data.attributes.caligrafia.value,"Caligrafia ritual"]
   },
   Orfebreria: {
    icon: '<i class="fas fa-chevron-right"></i>',
