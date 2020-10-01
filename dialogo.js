@@ -51,7 +51,7 @@ let atleticas = new Dialog({
   Acrobacia: {
    icon: '<i class="fas fa-chevron-right"></i>',
    label: "Acrobacia",
-   callback: () => key=[token.actor.data.data.attributes.acr.value,"Acrobacias"]
+   callback: () => key=[_token.actor.data.data.attributes.acr.value,"Acrobacias"]
   },
   Atletismo: {
    icon: '<i class="fas fa-chevron-right"></i>',
