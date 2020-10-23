@@ -1,8 +1,8 @@
 {
 	"name": "Dialogo",
-	"title": "Modulo Artesanal",
+	"title": "Modulo personalizado Ánima",
 	"description": "Permite abrir ventanas de dialogo para habilidades secundarias en anima",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"author": "SrOveja",
 	"scripts": [
 		"dialogo.js"],
