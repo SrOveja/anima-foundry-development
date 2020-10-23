@@ -1,4 +1,7 @@
+//Declarar el array que contendrá el valor y el nombre de la habilidad secundaria
 var key=[];
+
+//Crea un diálogo que muestra las categorías de habilidades secundarias, con botones para seleccionarlas
 let secundarias = new Dialog({
  title: "Secundarias",
  content: "<p>Menú de habilidades secundarias :</p>",
@@ -42,8 +45,11 @@ let secundarias = new Dialog({
  }
 });
 
+//Muestra el dialogo
 secundarias.render(true);
 
+
+//Crea el dialogo de las categorías de habilidades secundarias, con botones que devuelven los valores de cada habilidad
 let atleticas = new Dialog({
  title: "Atleticas",
  content: "<p>Menú de habilidades relacionadas al cuerpo :</p>",
@@ -356,7 +362,7 @@ let creativa = new Dialog({
 });
 
 
-
+//Crea una función que permite hacer la tirada de acuerdo a Anima
 async function rollhab(key) {
 	for (let token of canvas.tokens.controlled){
 		var v_mod = key[0]; //Modificar "advertir" por key de cualquier stat (recordar cambiar en html)
