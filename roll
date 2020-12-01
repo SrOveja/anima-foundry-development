@@ -1,5 +1,5 @@
 //Skill Roll
-
+//      //<th> ${defRoll.dice}</th>
 //Attack Roll
 
 
@@ -44,5 +44,5 @@ const actor = _token.name;
 		  </tr>
 		</table>`;
 		ChatMessage.create({content : html});
-	}
+	
 }
