@@ -2,10 +2,11 @@
 	"name": "Dialogo",
 	"title": "Modulo personalizado Ánima",
 	"description": "Permite abrir ventanas de dialogo para habilidades secundarias en anima",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"author": "SrOveja",
 	"scripts": [
-		"dialogo.js"],
+		"dialogo.js",
+		"roll.js"],
 	"languages": [
 
 		{
