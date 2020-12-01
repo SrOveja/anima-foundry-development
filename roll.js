@@ -29,7 +29,7 @@ defMod = par;
 }
 
 defRoll = new Roll(`1d100x>89+${defMod}-${attr.penTodaAccion.value}`).roll();
-defFinal = defRoll.total();
+defFinal = defRoll.total;
 
 
 
